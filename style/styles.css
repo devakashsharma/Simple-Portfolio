@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #edf1fd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    background-color: #129b9b;
+    padding: 4px 10px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-weight: 500;
+    width: fit-content;
+}
+
+.btn {
+    width: 100px;
+    font-size: 15px;
+}
+button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+nav .logo {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-weight: 600;    
+}
+
+nav ul li:hover {
+    /* text-decoration: underline; */
+    font-weight: 700;
+}
+
+.searchbar {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    padding: 4px 10px;
+    border-radius: 5px;
+    border: 2px solid #000000;
+}
+
+input:hover {
+    border: 2px solid #129b9b;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-section h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.left-section h1 span {
+    color: #129b9b;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.left-section p {
+    font-weight: 500;
+}
+
+.left-section p span {
+    font-size: 20px;
+    color: #129b9b;
+    font-weight: 600;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 300px;
+}
+
+.right-button {
+    height: 35px;
+    width: 220px;
+    font-size: 15px;
+    justify-self: center;
+}
+
+.right-section img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 12px;
+    height: 35px;
+    justify-content: space-around;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.footer-icon {
+    font-size: 18px;
+}
+
+footer p {
+    padding-left: 10px;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+footer ul li i:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 2px 12px #00000029;
+}
+
+::selection {
+    color: #ffffff;
+    background: #000000;
+}
